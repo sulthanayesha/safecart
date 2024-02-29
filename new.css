@@ -1,0 +1,117 @@
+
+.header_top{
+    background-color: rgb(46,74,58);
+    color: white;
+   
+}
+.header_top ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.header_top  .header_rigth{
+ margin-left: 730px;
+}
+.button{
+    background-color: rgb(255,202,44);
+    border-radius: 1px 2px 2px 1px solid black;
+}
+
+.header_top  .header_rigth :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.search{
+    margin-top: -55px;
+}
+.paragraph{
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: -40px;
+}
+
+.images{
+    width: 259px;
+    margin-left: 30px;
+}
+
+.category{
+    list-style-type: none;
+    display: flex;
+}
+.category li{
+    padding: 30px;
+    font-style: initial;
+    font-size: large;
+   
+}
+
+
+.homepage{
+    list-style-type: none;
+}
+
+.homepage li{
+    padding: 5px;
+    list-style-type: none;
+    display: none;  
+    margin-left: -35px;
+}
+
+.homepage:hover .homepage li{
+    background-color:rgb(138, 163, 125);
+    cursor: pointer;
+    display: block;
+
+}
+
+.shoppage li{
+    list-style-type: none;
+    display: none;
+    margin-left: -50px;
+    padding: 5px;
+}
+
+.shoppage:hover .shoppage li{
+    background-color: rgb(138, 163, 125);
+    cursor: pointer;
+    display: block;
+
+}
+
+
+.pages li{
+    list-style-type: none;
+    padding: 5px;
+    margin-left: -90px;
+    display: none;
+}
+
+.pages:hover .pages li{
+    cursor: pointer;
+    display: block;
+    background-color:rgb(138, 163, 125) ;
+    
+}
+
+.blog li {
+         list-style-type: none;
+         padding: 5px;
+         margin-left: -60px;
+         display: none;
+}
+
+.blog:hover .blog li{
+    cursor: pointer;
+    display: block;
+    background-color: rgb(138, 163, 125);
+}
+
+
+.logo{
+    margin-left: 600px;
+    margin-top: -90px;
+    padding:15px;
+}
+
